@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2436fe8-fd47-45c1-a82f-06573d404ac7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scala/testscala/defineFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/testscala/testArray.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/testscala/testTuples.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/testscala/testlist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/testscala/whileAndif.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/testscala/out/production/scala-tutorial/defineFunction1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/testscala/out/production/scala-tutorial/defineFunction1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/testscala/out/production/scala-tutorial/sd.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="defineVariables.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/testscala/defineVariables.scala">
+      <file leaf-file-name="testlist.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scala/testscala/testlist.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defineFunction.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scala/testscala/defineFunction.scala">
+      <file leaf-file-name="testTuples.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scala/testscala/testTuples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -52,6 +57,10 @@
         <option value="$PROJECT_DIR$/scala/testscala/defineFunction1.scala" />
         <option value="$PROJECT_DIR$/scala/testscala/sd.scala" />
         <option value="$PROJECT_DIR$/scala/testscala/defineFunction.scala" />
+        <option value="$PROJECT_DIR$/scala/testscala/whileAndif.scala" />
+        <option value="$PROJECT_DIR$/scala/testscala/testArray.scala" />
+        <option value="$PROJECT_DIR$/scala/testscala/testlist.scala" />
+        <option value="$PROJECT_DIR$/scala/testscala/testTuples.scala" />
       </list>
     </option>
   </component>
@@ -108,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scalatest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -127,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.defineFunction">
+  <component name="RunManager" selected="Application.testTuples">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -136,16 +145,25 @@
       <module name="scala-tutorial" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="defineVariables" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="testscala.defineVariables" />
+    <configuration name="testArray" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="testArray" />
       <module name="scala-tutorial" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testscala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    </configuration>
+    <configuration name="testTuples" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="testTuples" />
+      <module name="scala-tutorial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="testlist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="testlist" />
+      <module name="scala-tutorial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="whileAndif" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="whileAndif" />
+      <module name="scala-tutorial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -162,12 +180,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="scala-tutorial" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -192,15 +204,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.defineVariables" />
-      <item itemvalue="Scala Console.Scala Console" />
       <item itemvalue="Application.defineFunction" />
+      <item itemvalue="Application.whileAndif" />
+      <item itemvalue="Application.testArray" />
+      <item itemvalue="Application.testlist" />
+      <item itemvalue="Application.testTuples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testTuples" />
+        <item itemvalue="Application.testlist" />
+        <item itemvalue="Application.testArray" />
+        <item itemvalue="Application.whileAndif" />
         <item itemvalue="Application.defineFunction" />
-        <item itemvalue="Scala Console.Scala Console" />
-        <item itemvalue="Application.defineVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -216,12 +232,12 @@
       <updated>1545031099816</updated>
       <workItem from="1545031101785" duration="2698000" />
       <workItem from="1545033895304" duration="717000" />
-      <workItem from="1545034702038" duration="321000" />
+      <workItem from="1545034702038" duration="3662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3736000" />
+    <option name="totallyTimeSpent" value="7077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -237,11 +253,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala/testscala/defineVariables.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala/testscala/defineFunction1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -317,10 +326,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/wh.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/whileAndif.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scala/testscala/defineFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/defineVariables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/testArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../lib/scala-library.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/testlist.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/testscala/testTuples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
