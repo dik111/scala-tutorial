@@ -7,4 +7,5 @@ object testTuples{
     println(pair._1)
     println(pair._2)
   }
+//  def printArgs()
 }
